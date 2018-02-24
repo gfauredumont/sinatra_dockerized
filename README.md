@@ -3,7 +3,7 @@
 
 Running `docker-compose up` will start the Sinatra app
 
-Browse at [localhost:4567](localhost:4567)
+Browse at [localhost:4567](http://localhost:4567)
 
 
 --
