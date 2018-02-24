@@ -1,0 +1,9 @@
+web:
+  build: .
+  volumes:
+    - .:/sinatra
+  ports:
+    - "4567:4567"
+  # env_file:
+  #   - '.env.web'
+  command: bundle exec ruby app.rb
